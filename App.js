@@ -96,6 +96,65 @@ export default function App() {
       fontSize: 26,
       fontFamily: "Roboto",
       color: "rgba(255,255,255,.9)"
+    },
+    skillsContainer: {
+      width: "100%",
+      flex: 12,
+      justifyContent: "flex-start",
+      alignItems: "center"
+    },
+    skillsHeader: {
+      width: "100%",
+      alignItems: "center",
+      padding: 5,
+      paddingTop: 15,
+      marginBottom: 20,
+    },
+    skillsHeaderText: {
+      fontSize: 26,
+      fontFamily: "Roboto",
+      textAlign: "center",
+      width: "100%",
+      color: "white"
+    },
+    skillContainerStyle: {
+      width: "100%",
+      flex: 1,
+      marginBottom: 5,
+      flexDirection: "row",
+      justifyContent: "center",
+      marginLeft: "auto",
+      marginRight: "auto"
+    },
+    skillNameContainer: {
+      flex: 3,
+      padding: 5,
+      alignItems: "center"
+    },
+    skillLevelContainer: {
+      flex: 2,
+      padding: 5,
+      alignItems: "center"
+    },
+    skillText:{
+      width: "100%",
+      textAlign: "center",
+      color: "rgba(255,255,255,.8)",
+      fontSize: 20,
+      marginLeft: "auto",
+    },
+    skillLevelBar: {
+      width: "80%",
+      height: 20,
+      backgroundColor: "rgba(255,255,255,.7)",
+      borderRadius: 10,
+      alignItems: "flex-start",
+      justifyContent: "center"
+    },
+    skillLevelShower: {
+      height: 20,
+      backgroundColor: "rgba(44, 140, 0, 0.6)",
+      borderRadius: 10
     }
   });
   return (
