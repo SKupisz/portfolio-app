@@ -155,6 +155,42 @@ export default function App() {
       height: 20,
       backgroundColor: "rgba(44, 140, 0, 0.6)",
       borderRadius: 10
+    },
+    projectText: {
+      width: "90%",
+      textAlign: "center",
+      fontSize: 26,
+      color: "rgba(255,255,255,.8)",
+      fontFamily: "Roboto",
+      marginLeft: "auto",
+      marginRight: "auto",
+      marginBottom: 7
+    },
+    roleAndDateContainer: {
+      width: "90%",
+      marginLeft: "auto",
+      marginRight: "auto",
+      flexDirection: "row",
+      padding: 5,
+      alignItems: "center",
+      marginBottom: 40
+    },
+    roleContainer: {
+      flex: 1,
+      padding: 5,
+      alignItems: "center"
+    },
+    dateContainer: {
+      flex: 1,
+      padding: 5,
+      alignItems: "center"
+    },
+    roleDataText: {
+      fontSize: 14,
+      width: "100%",
+      color: "rgba(255,255,255,.8)",
+      textAlign: "center",
+      fontFamily: "Roboto"
     }
   });
   return (

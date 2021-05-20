@@ -25,6 +25,7 @@ export default class Skills extends React.Component{
                     skillKey = {"skill-"+elem["name"]}
                     skillName = {elem["name"]}
                     skillLevel = {elem["level"]}
+                    key = {"skill-"+elem["name"]}
                     />})}
                 </View>
             </View>
