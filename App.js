@@ -159,7 +159,8 @@ export default function App() {
     projectText: {
       width: "90%",
       textAlign: "center",
-      fontSize: 26,
+      fontSize: 24,
+      padding: 5,
       color: "rgba(255,255,255,.8)",
       fontFamily: "Roboto",
       marginLeft: "auto",
