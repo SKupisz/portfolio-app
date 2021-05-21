@@ -1,0 +1,28 @@
+{
+    "projects": [
+        {
+            "beginning": 2019,
+            "ending": 2021,
+            "name": "SGK-news",
+            "role": "Founder and CEO"
+        },
+        {
+            "beginning": 2019,
+            "ending": 0,
+            "name": "Hackclub",
+            "role": "Co-leader and emcee"
+        },
+        {
+            "beginning": 2020,
+            "ending": 2020,
+            "name": "Alice envisions the future",
+            "role": "Tech mentor"
+        },
+        {
+            "beginning": 2020,
+            "ending": 2020,
+            "name": "Hackweek",
+            "role": "Co-leader"
+        }
+    ]
+}

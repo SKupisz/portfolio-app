@@ -1,0 +1,32 @@
+{
+    "education": {
+        "colleges": [
+            {
+                "name": "XVII Liceum Ogolnoksztalcace z Oddzialami Dwujezycznymi Im Andrzeja Frycza Modrzewskiego",
+                "type": "high school",
+                "beginning": "2018",
+                "ending": "2019"
+            },
+            {
+                "name": "XVIII Liceum Ogólnokształczace im. Jana Zamoyskiego w Warszawie",
+                "type": "high school",
+                "beginning": "2019",
+                "ending": "2021"
+            }
+        ],
+        "languages": [
+            {
+                "name": "Polish",
+                "level": "Native"
+            },
+            {
+                "name": "English",
+                "level": "B2/C1"
+            },
+            {
+                "name": "German",
+                "level": "A2/B1"
+            }
+        ]
+    }
+}

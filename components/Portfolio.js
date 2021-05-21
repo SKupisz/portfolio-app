@@ -8,7 +8,7 @@ export default class Portfolio extends React.Component{
     constructor(props){
         super(props);
 
-        this.data = require("./data/data.json");
+        this.data = require("./data/projects.json");
         this.portfolio = this.data["projects"];
     }
     render(){

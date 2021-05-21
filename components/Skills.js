@@ -7,7 +7,7 @@ import SkillContainer from "./helpers/SkillContainer.js";
 export default class Skills extends React.Component{
     constructor(props){
         super(props);
-        this.data = require("./data/data.json");
+        this.data = require("./data/skills.json");
         this.skills = this.data["skills"];
     }
     render(){

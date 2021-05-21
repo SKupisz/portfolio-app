@@ -192,6 +192,61 @@ export default function App() {
       color: "rgba(255,255,255,.8)",
       textAlign: "center",
       fontFamily: "Roboto"
+    },
+    educationSubSection: {
+      width: "100%",
+      flex: 1,
+      padding: 5,
+      justifyContent: "flex-start",
+      alignItems: "center",
+      flexDirection: "column"
+    },
+    firstSection: {
+      paddingTop: 15,
+      paddingBottom: 20
+    },
+    educationLanguageWrapper: {
+      width: "100%",
+      padding: 5,
+      marginTop: 14,
+      justifyContent: "center",
+      alignItems: "center",
+      flex: 1
+    },
+    educationLanguageName: {
+      width: "90%",
+      marginLeft: "auto",
+      marginRight: "auto",
+      textAlign: "center",
+      fontSize: 18,
+      fontFamily: "Roboto",
+      color: "rgba(255,255,255,.8)"
+    },
+    educationName: {
+      width: "100%",
+      padding: 5,
+      alignItems: "center"
+    },
+    educationNameText: {
+      width: "100%",
+      fontSize: 18,
+      textAlign: "center",
+      fontFamily: "Roboto",
+      color: "rgba(255,255,255,.8)"
+    },
+    educationDataWrapper: {
+      width: "100%",
+      marginLeft: "auto",
+      marginRight: "auto",
+      flexDirection: "row",
+      alignItems: "center"
+    },
+    educationDataText: {
+      width: "100%",
+      textAlign: "center",
+      fontSize: 14,
+      fontFamily: "Roboto",
+      color: "rgba(255,255,255,.9)"
     }
   });
   return (
